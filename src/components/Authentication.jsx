@@ -32,9 +32,9 @@ class Authentication extends Component {
     const token = items.access_token;
     console.log(token);
     if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div>Checking Access... Please Wait...</div>;
     } else {
-      return <div>Data Loaded</div>;
+      return <div>Access Granted</div>;
     }
   }
 }
