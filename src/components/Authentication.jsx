@@ -34,7 +34,11 @@ class Authentication extends Component {
     if (!isLoaded) {
       return <div>Checking Access... Please Wait...</div>;
     } else {
-      return <div>Access Granted</div>;
+      return (
+        <div>
+          <b>Access Granted</b>
+        </div>
+      );
     }
   }
 }

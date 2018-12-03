@@ -31,15 +31,29 @@
   }
 }
 
+.Search-Div {
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .Search-Box {
   border-radius: 30px;
-  width: 40%;
-  padding: 1%;
+  width: 30%;
+  padding: 0.5%;
   margin: 1%;
 }
 
+body {
+  background: url(./resources/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 h1 {
-  margin: 2%;
+  color: orange;
 }
 
 .Search-Select {
