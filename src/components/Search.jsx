@@ -12,12 +12,12 @@ class Search extends Component {
           <center>
             <input className="Search-Box" type="text" placeholder="Search" />
 
-            <select>
+            <select className="Search-Select">
               <option value="SSN">By SSN</option>
               <option value="EID">By Employee Number</option>
             </select>
 
-            <button>Search</button>
+            <button className="btn btn-primary">Search</button>
           </center>
         </form>
       </React.Fragment>
